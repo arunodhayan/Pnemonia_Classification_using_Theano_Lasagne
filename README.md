@@ -1,5 +1,5 @@
 # Pnemonia_Classification_using_Theano_Lasagne
-Pnemonia_Classification_using_Theano_Lasagne
+Pnemonia_Classification_using_Theano_Lasagne using Convolutional Neural Network
 
 ## How to use the Repo
     1.Open Image_classification.py
