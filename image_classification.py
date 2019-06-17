@@ -95,7 +95,7 @@ MODEL_PATH = 'model/'
 PRETRAINED_MODEL = None #'pretrained_model.pkl'
 LOAD_OUTPUT_LAYER = True
 EPOCH_START = 1
-RUN_NAME = 'AAL_Example_Run'
+RUN_NAME = 'Pnemonia'
 SIMPLE_LOG_MODE = True
 SNAPSHOT_EPOCHS = [5, 10, 15, 20, 25 ,30 , 35 , 40 , 45 , 50 , 55, 60 , 65, 70 , 75 , 80, 85 , 90 , 95 , 100 , 105, 110 , 115 , 120 , 125 , 130 , 135 , 140 , 145 , 150 , 155 , 160 , 165 , 170 , 175 , 180 , 185 , 190 , 195 , 200 ] #[-1] saves after every epoch
 SAVE_AFTER_INTERRUPT = True
@@ -391,7 +391,7 @@ def saveModel(epoch, model=None):
     print "EXPORTING MODEL...",
     if model == None:
         model = NET
-    net_filename = MODEL_PATH + "AED_" + RUN_NAME + "_model_epoch_" + str(epoch) + ".pkl"
+    net_filename = MODEL_PATH + "Classification_" + RUN_NAME + "_model_epoch_" + str(epoch) + ".pkl"
     if not os.path.exists(MODEL_PATH):
         os.makedirs(MODEL_PATH)
     with open(net_filename, 'w') as f:
