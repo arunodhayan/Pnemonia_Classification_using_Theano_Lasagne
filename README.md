@@ -14,8 +14,8 @@ Pnemonia_Classification_using_Theano_Lasagne
         The best models are snapshoted and saved in a directory  
 ## Results
     Dense units=128 Accuracy=82.5 Epochs=28
-   Dense units=256 Accuracy=84.1 Epochs=18
-   Dense units=512 with Roll Augmentation Accuracy=86.2 Epochs=36
+     Dense units=256 Accuracy=84.1 Epochs=18
+     Dense units=512 with Roll Augmentation Accuracy=86.2 Epochs=36
 
 ## Datasets
    The dataset has been used from Kaggle competition
